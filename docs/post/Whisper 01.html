@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://avatars.githubusercontent.com/u/76899470?v=4"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -102,8 +102,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>"你知道的我在博物馆工作，我以前和你说过，我在伦敦市区租了一间房，虽然那栋楼有点旧了，电梯也有时候会坏。我其实不算迷信，但是，我觉得我可能得罪了什么神仙，这不是没有可能的吧？你也知道博物馆里都是些……神秘而古老的东西，我也看过一些关于古埃及文明的书籍，有一些关于冒犯了埃及神的故事，比如说顶撞了拉神会被烧死什么的，但我还没看到有哪个神喜欢捉弄人类的。”</p>
 <p>"不过也有好消息，我在我脚上栓了根带子，我觉得我应该不会再半夜乱跑了。”想起这个Steven心情稍微好了点，他把剩下的卷饼吃完，往地下的帽子里投了两块硬币，"谢谢你听我说这些，铜像先生，明天见。”</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://doriscoffey.github.io"> PURE MILK </a>
 <p>
@@ -158,6 +160,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");

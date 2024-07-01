@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://avatars.githubusercontent.com/u/76899470?v=4"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -274,8 +274,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>其实哥留在薨星宫是合理的，因为杀脑花这件事的优先级比虎杖要更高，或者说哥认为虎杖痛苦的根源是脑花，想要保护虎杖就要先杀脑花（胀相对自己弟弟的实力也很放心呢......）。这篇文里悠仁的坦诚代替了99让胀相解开了心结（对不起99姐抢你的戏了），所以哥才会决定一直陪着悠仁（试图说服自己</p>
 <p>本来想让哥和悠仁在发烧时候做的，但后来因为<del>想凑字数</del>觉得哥不是那种悠仁想要就什么都给的类型，他会对悠仁有自己的考量，所以放到了悠仁痊愈之后。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://doriscoffey.github.io"> PURE MILK </a>
 <p>
@@ -330,6 +332,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
